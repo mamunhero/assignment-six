@@ -6,10 +6,59 @@
   <title>assignment</title>
   <!-- css link -->
   <link rel="stylesheet" href="./css/style.css">
+  <!-- tailwind and daisy -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-  
+  <!-- header section -->
+  <header>
+    <!-- navbar -->
+    <div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="-1"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2">
+        <li><a>Home</a></li>
+        <li><a>Products</a></li>
+        <li><a>About</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+    <span class="text-purple-600 font-bold text-xl">SwiftCart</span>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a>Home</a></li>
+      <li><a>Products</a></li>
+      <li><a>About</a></li>
+      <li><a>Contact</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <a class=""><i class="fa-solid fa-cart-plus"></i></a>
+  </div>
+</div>
+  <!-- banner section -->
+   <div class="img image flex items-center">
+    <div class="space-y-5">
+      <h2 class="font-bold text-2xl text-white">Best Collection for you</h2>
+      <p class="font-semibold text-xl text-white">Discover the latest trends in fashion, electronics, and more. Shop with <br>
+      confidence and style at SwiftCart
+      </p>
+      <button class="btn btn-active btn-primary">Shop Now</button>
+    </div>
+   </div>
+  </header>
 
+  
   <!-- java script -->
    <script src="./js/script.js"></script>
 </body>
