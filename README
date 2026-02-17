@@ -1,0 +1,30 @@
+1) What is the difference between null and undefined?
+Ans: Null: Null হলো variable এর মান declare করা হয়  এবং  মান খালি রাখা হয় এবং মান হিসাবে null লেখা থাকে.
+Example 
+Ley x = null  ;
+Console.log(x)
+Undefined: Undefined হলো  যেখানে variable declare করা হয় কিন্তু value এর মান খালি রাখা হয়.
+Let y = ;
+Console.log(y)
+
+
+2) What is the use of the map() function in JavaScript? How is it different from forEach()?
+Map: Map হলো আগের array থেকে কপি করে কিন্তু আগের array কোনো পরিবর্তন না করে নতুন একটা Array তৈরি করে. আগের Array কোনো কিছু পৰিবৰ্তন করে না.
+
+ForEach হলো প্রতিটা উপাদান কে loop চালায় এবং সেইটা Console.log এ দেখা যায় কিন্তু কোনো কিছু return করে নাই.
+
+3) What is the difference between == and ===?
+Ans: == দুই পাশের মান সমান আছে কিনা সেইটা check করে.
+=== দুই পাশের মান এবং ডাটা টাইপ check করে.
+
+4) What is the significance of async/await in fetching API data?
+Ans: 
+
+5) Explain the concept of Scope in JavaScript (Global, Function, Block).
+Ans:  Scope হলো কোডের কোন অংশে Variable দেখা যাবে বা ব্যবহার করা যায় তার সীমানা। JavaScript ৩ ধরনের স্কোপ আছে.
+1. Global: কোনো variable ফাংশন বা ব্লকের বাইরে ডিক্লেয়ার করা হয় তবে সেটি Global Scope বলে. এর মাধ্যমে পুরো কোডের যেকোনো জায়গা থেকে ওই ভ্যারিয়েবলটি ব্যবহার করা যাবে।
+2. Function: function হলো একটা function এর মধ্যে variable লেখা হয় এবং ওই variable function এর ভিতরে কাজ করে এবং এর বাইরে কাজ করবে নাই.
+3. Block: কার্লি ব্র্যাকেট এর যে function লেখা হয় শুধু এর ভিতরে ওই function কাজ করবে এর বাইরে কাজ করবে নাই.
+
+
+

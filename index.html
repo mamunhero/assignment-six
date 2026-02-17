@@ -90,8 +90,8 @@
     </div>
   </div>
 
-  <!-- all products -->
-   <section id="product-container">
+  <!-- all products buttons -->
+   <section class="product-buttons">
     <div class="text-center mt-10 mb-10">
       <h2 class="text-3xl font-bold text-black mb-10">Our Products</h2>
       <button class="btn">All</button>
@@ -99,6 +99,30 @@
       <button class="btn">Jewelery</button>
       <button class="btn">Men's Clothings</button>
       <button class="btn">Women's Clothings</button>
+    </div>
+   </section>
+
+  <!-- all products -->
+   <section id="product-container" class="bg-gray-100 p-10 w-11/12 mx-auto grid   grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+    <div class="bg-white rounded-xl shadow-md px-5 space-y-5">
+      <!-- image div -->
+       <div class="w-full h-48 overflow-hidden rounded-lg">
+        <img class="w-full h-full object-cover" src="/images/two.png" alt="images">
+       </div>
+       <!-- cards body -->
+        <div class="flex justify-between items-center">
+          <span><button class="btn btn-sm">Catagory</button></span>
+          <p class="text-sm">Rattings: 4.5</p>
+        </div>
+        <div class="space-y-1">
+          <h2 class="font-semibold text-xl">Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h2>
+          <p class="font-bold">price:109.95</p>
+        </div>
+        <!-- buttons -->
+        <div class="flex justify-between gap-3 mb-3">
+          <button class="btn btn-outline btn-sm"><i class="fas fa-eye"></i>Details</button>
+          <button class="btn btn-primary btn-sm"><i class="fas fa-cart-plus"></i>Add</button>
+        </div>
     </div>
    </section>
   <!-- java script -->
